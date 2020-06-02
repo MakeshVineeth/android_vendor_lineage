@@ -63,6 +63,27 @@
          so that applications can still use their own mechanisms. -->
     <bool name="config_enableAutoPowerModes">true</bool>
 
+    <!-- set defaults for google services -->
+   <string name="config_appsAuthorizedForSharedAccounts">;com.android.vending;com.android.settings;</string>
+   <string name="config_persistentDataPackageName">com.google.android.gms</string>
+
+   <!-- non blockable notification packages -->
+   <string-array name="config_nonBlockableNotificationPackages">
+       <item>com.android.dialer</item>
+       <item>com.google.android.dialer</item>
+       <item>com.google.android.deskclock</item>
+      <item>com.chooloo.www.callmanager</item>
+   </string-array>
+
+   <!-- empheral resolver packages -->
+    <string-array name="config_ephemeralResolverPackage">
+        <item>com.google.android.gms</item>
+    </string-array>
+
+    <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
+          in hardware. -->
+     <bool name="config_setColorTransformAccelerated">true</bool>
+
     <!-- If this is true, long press on power button will be available from a
          non-interactive state. -->
     <bool name="config_supportLongPressPowerWhenNonInteractive">true</bool>
@@ -93,4 +114,13 @@
 
     <!-- Flag indicating whether round icons should be parsed from the application manifest. -->
     <bool name="config_useRoundIcon">true</bool>
+
+    <!-- Pixel -->
+ <bool name="config_buttonTextAllCaps">false</bool>
+ <bool name="config_unplugTurnsOnScreen">true</bool>
+ <bool name="config_sendPackageName">true</bool>
+ <dimen name="config_dialogCornerRadius">8.0dip</dimen>
+ <dimen name="config_buttonCornerRadius">4.0dip</dimen>
+ <dimen name="config_progressBarCornerRadius">1000.0dip</dimen>
+
 </resources>

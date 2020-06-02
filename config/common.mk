@@ -21,8 +21,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Default notification/alarm sounds
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.config.notification_sound=Argon.ogg \
-    ro.config.alarm_alert=Hassium.ogg
+    ro.config.notification_sound=iPhone.ogg \
+    ro.config.alarm_alert="Rooster Alarm.ogg" \
+		ro.config.ringtone=Flute.ogg
 
 ifneq ($(TARGET_BUILD_VARIANT),user)
 # Thank you, please drive thru!
@@ -132,7 +133,6 @@ PRODUCT_PACKAGES += \
 
 # Berry styles
 PRODUCT_PACKAGES += \
-    LineageBlackTheme \
     LineageDarkTheme \
     LineageBlackAccent \
     LineageBlueAccent \

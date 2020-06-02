@@ -123,33 +123,12 @@ PRODUCT_PACKAGES += \
 
 # Required Lineage packages
 PRODUCT_PACKAGES += \
-    LineageParts \
-    Development \
-    Profiles
-
-# Optional packages
-PRODUCT_PACKAGES += \
-    LiveWallpapersPicker \
-    PhotoTable \
-    Terminal
+    LineageParts
 
 # Custom Lineage packages
 PRODUCT_PACKAGES += \
     AudioFX \
-    LineageSettingsProvider \
-    LineageSetupWizard \
-    Eleven \
-    ExactCalculator \
-    Jelly \
-    LockClock \
-    Trebuchet \
-    Updater \
-    WallpaperPicker \
-    WeatherProvider
-
-# Exchange support
-PRODUCT_PACKAGES += \
-    Exchange2
+    LineageSettingsProvider
 
 # Berry styles
 PRODUCT_PACKAGES += \
@@ -159,12 +138,9 @@ PRODUCT_PACKAGES += \
     LineageBlueAccent \
     LineageBrownAccent \
     LineageCyanAccent \
-    LineageGreenAccent \
-    LineageOrangeAccent \
-    LineagePinkAccent \
+    LineageOrangeAccent
     LineagePurpleAccent \
-    LineageRedAccent \
-    LineageYellowAccent
+    LineageRedAccent
 
 # Extra tools in Lineage
 PRODUCT_PACKAGES += \
@@ -218,10 +194,6 @@ PRODUCT_PACKAGES += \
 # rsync
 PRODUCT_PACKAGES += \
     rsync
-
-# Storage manager
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.storage_manager.enabled=true
 
 # Media
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \

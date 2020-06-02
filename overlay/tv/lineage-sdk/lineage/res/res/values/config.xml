@@ -18,7 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Disable LiveDisplay on ATV -->
-    <integer name="config_defaultLiveDisplayMode">0</integer>
+    <integer name="config_defaultLiveDisplayMode">1</integer>
 
     <!-- Control the behavior when the user double-taps the home button.
             0 - Nothing

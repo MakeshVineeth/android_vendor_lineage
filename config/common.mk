@@ -21,9 +21,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Default notification/alarm sounds
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.config.notification_sound=iPhone.ogg \
-    ro.config.alarm_alert="Rooster Alarm.ogg" \
-		ro.config.ringtone=Flute.ogg
+    ro.config.notification_sound=iPhone.mp3 \
+    ro.config.alarm_alert=CoolRemix.mp3 \
+		ro.config.ringtone=Flute.mp3
 
 ifneq ($(TARGET_BUILD_VARIANT),user)
 # Thank you, please drive thru!

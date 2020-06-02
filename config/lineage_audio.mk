@@ -10,7 +10,8 @@ UI_PATH := vendor/lineage/prebuilt/common/media/audio/ui
 # Alarms
 PRODUCT_COPY_FILES += \
     $(ALARM_PATH)/CyanAlarm.ogg:system/media/audio/alarms/CyanAlarm.ogg \
-    $(ALARM_PATH)/NuclearLaunch.ogg:system/media/audio/alarms/NuclearLaunch.ogg
+    $(ALARM_PATH)/NuclearLaunch.ogg:system/media/audio/alarms/NuclearLaunch.ogg \
+		$(ALARM_PATH)/NuclearLaunch.ogg:system/media/audio/alarms/CoolRemix.mp3
 
 # Notifications
 PRODUCT_COPY_FILES += \
@@ -22,7 +23,7 @@ PRODUCT_COPY_FILES += \
     $(NOTIFICATION_PATH)/Pong.ogg:system/media/audio/notifications/Pong.ogg \
     $(NOTIFICATION_PATH)/Rang.ogg:system/media/audio/notifications/Rang.ogg \
     $(NOTIFICATION_PATH)/Stone.ogg:system/media/audio/notifications/Stone.ogg \
-		$(NOTIFICATION_PATH)/Stone.ogg:system/media/audio/notifications/iPhone.ogg
+		$(NOTIFICATION_PATH)/Stone.ogg:system/media/audio/notifications/iPhone.mp3
 
 # UI
 PRODUCT_COPY_FILES += \
@@ -46,5 +47,5 @@ PRODUCT_COPY_FILES += \
     $(RINGTONE_PATH)/Rockin.ogg:system/media/audio/ringtones/Rockin.ogg \
     $(RINGTONE_PATH)/Sheep.mp3:system/media/audio/ringtones/Sheep.mp3 \
     $(RINGTONE_PATH)/Yukaay.ogg:system/media/audio/ringtones/Yukaay.ogg \
-		$(RINGTONE_PATH)/Yukaay.ogg:system/media/audio/ringtones/Flute.ogg
+		$(RINGTONE_PATH)/Yukaay.ogg:system/media/audio/ringtones/Flute.mp3
 endif

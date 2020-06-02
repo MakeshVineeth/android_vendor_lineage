@@ -21,7 +21,8 @@ PRODUCT_COPY_FILES += \
     $(NOTIFICATION_PATH)/Naughty.ogg:system/media/audio/notifications/Naughty.ogg \
     $(NOTIFICATION_PATH)/Pong.ogg:system/media/audio/notifications/Pong.ogg \
     $(NOTIFICATION_PATH)/Rang.ogg:system/media/audio/notifications/Rang.ogg \
-    $(NOTIFICATION_PATH)/Stone.ogg:system/media/audio/notifications/Stone.ogg
+    $(NOTIFICATION_PATH)/Stone.ogg:system/media/audio/notifications/Stone.ogg \
+		$(NOTIFICATION_PATH)/Stone.ogg:system/media/audio/notifications/iPhone.ogg
 
 # UI
 PRODUCT_COPY_FILES += \
@@ -44,5 +45,6 @@ PRODUCT_COPY_FILES += \
     $(RINGTONE_PATH)/Lyon.ogg:system/media/audio/ringtones/Lyon.ogg \
     $(RINGTONE_PATH)/Rockin.ogg:system/media/audio/ringtones/Rockin.ogg \
     $(RINGTONE_PATH)/Sheep.mp3:system/media/audio/ringtones/Sheep.mp3 \
-    $(RINGTONE_PATH)/Yukaay.ogg:system/media/audio/ringtones/Yukaay.ogg
+    $(RINGTONE_PATH)/Yukaay.ogg:system/media/audio/ringtones/Yukaay.ogg \
+		$(RINGTONE_PATH)/Yukaay.ogg:system/media/audio/ringtones/Flute.ogg
 endif

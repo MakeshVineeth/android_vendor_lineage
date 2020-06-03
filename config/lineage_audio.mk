@@ -5,7 +5,6 @@
 ALARM_PATH := vendor/lineage/prebuilt/common/media/audio/alarms
 NOTIFICATION_PATH := vendor/lineage/prebuilt/common/media/audio/notifications
 RINGTONE_PATH := vendor/lineage/prebuilt/common/media/audio/ringtones
-UI_PATH := vendor/lineage/prebuilt/common/media/audio/ui
 
 # Alarms
 PRODUCT_COPY_FILES += \
@@ -24,11 +23,6 @@ PRODUCT_COPY_FILES += \
     $(NOTIFICATION_PATH)/Rang.ogg:system/media/audio/notifications/Rang.ogg \
     $(NOTIFICATION_PATH)/Stone.ogg:system/media/audio/notifications/Stone.ogg \
 		$(NOTIFICATION_PATH)/Stone.ogg:system/media/audio/notifications/iPhone.mp3
-
-# UI
-PRODUCT_COPY_FILES += \
-		$(UI_PATH)/Lock.ogg:system/media/audio/ui/Lock.ogg \
-		$(UI_PATH)/Lock.ogg:system/media/audio/ui/Unlock.ogg
 
 # Ringtones
 ifeq ($(TARGET_NEEDS_BOOSTED_SOUNDS),true)

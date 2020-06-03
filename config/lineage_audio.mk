@@ -27,7 +27,7 @@ PRODUCT_COPY_FILES += \
 
 # UI
 PRODUCT_COPY_FILES += \
-		$(UI_PATH)/Lock.ogg:system/media/audio/ui/Lock.ogg
+		$(UI_PATH)/Lock.ogg:system/media/audio/ui/Lock.ogg \
 		$(UI_PATH)/Lock.ogg:system/media/audio/ui/Unlock.ogg
 
 # Ringtones

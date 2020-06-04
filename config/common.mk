@@ -124,7 +124,9 @@ PRODUCT_PACKAGES += \
 
 # Required Lineage packages
 PRODUCT_PACKAGES += \
-    LineageParts
+    LineageParts \
+    Development \
+    Profiles
 
 # Custom Lineage packages
 PRODUCT_PACKAGES += \
@@ -140,7 +142,10 @@ PRODUCT_PACKAGES += \
     LineageCyanAccent \
     LineageOrangeAccent \
     LineagePurpleAccent \
-    LineageRedAccent
+    LineageRedAccent \
+    LineageGreenAccent \
+    LineagePinkAccent \
+    LineageYellowAccent
 
 # Extra tools in Lineage
 PRODUCT_PACKAGES += \

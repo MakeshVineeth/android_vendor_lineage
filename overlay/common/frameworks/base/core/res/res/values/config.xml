@@ -72,7 +72,8 @@
        <item>com.android.dialer</item>
        <item>com.google.android.dialer</item>
        <item>com.google.android.deskclock</item>
-      <item>com.chooloo.www.callmanager</item>
+       <item>com.chooloo.www.callmanager</item>
+       <item>com.ky.next.dialer</item>
    </string-array>
 
    <!-- empheral resolver packages -->

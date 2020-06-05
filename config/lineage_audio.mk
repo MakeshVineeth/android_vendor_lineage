@@ -9,7 +9,7 @@ RINGTONE_PATH := vendor/lineage/prebuilt/common/media/audio/ringtones
 # Alarms
 PRODUCT_COPY_FILES += \
     $(ALARM_PATH)/CyanAlarm.ogg:system/media/audio/alarms/CyanAlarm.ogg \
-    $(ALARM_PATH)/CoolRemix.ogg.ogg:system/media/audio/alarms/CoolRemix.ogg
+    $(ALARM_PATH)/CoolRemix.ogg:system/media/audio/alarms/CoolRemix.ogg
 
 # Notifications
 PRODUCT_COPY_FILES += \

@@ -8,7 +8,7 @@ PRODUCT_COPY_FILES += \
 
 # Default ringtone
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.config.ringtone=Orion.ogg
+    ro.config.ringtone=Flute.ogg
 
 # Tethering - allow without requiring a provisioning app
 # (for devices that check this)

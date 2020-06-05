@@ -124,17 +124,12 @@ PRODUCT_PACKAGES += \
 # Required Lineage packages
 PRODUCT_PACKAGES += \
     LineageParts \
-    Development \
     Profiles
 
 # Custom Lineage packages
 PRODUCT_PACKAGES += \
     AudioFX \
     LineageSettingsProvider
-
-# Exchange support
-PRODUCT_PACKAGES += \
-    Exchange2
 
 # Berry styles
 PRODUCT_PACKAGES += \
@@ -143,8 +138,6 @@ PRODUCT_PACKAGES += \
     LineageBlackAccent \
     LineageBlueAccent \
     LineageBrownAccent \
-    LineageCyanAccent \
-    LineageGreenAccent \
     LineageOrangeAccent \
     LineagePurpleAccent \
     LineageRedAccent

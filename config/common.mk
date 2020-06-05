@@ -21,9 +21,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Default notification/alarm sounds
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.config.notification_sound=iPhone.mp3 \
-    ro.config.alarm_alert=CoolRemix.mp3 \
-		ro.config.ringtone=Flute.mp3
+    ro.config.notification_sound=Argon.ogg \
+    ro.config.alarm_alert=Hassium.ogg
 
 ifneq ($(TARGET_BUILD_VARIANT),user)
 # Thank you, please drive thru!
@@ -128,23 +127,43 @@ PRODUCT_PACKAGES += \
     Development \
     Profiles
 
+# Optional packages
+PRODUCT_PACKAGES += \
+    LiveWallpapersPicker \
+    PhotoTable \
+    Terminal
+
 # Custom Lineage packages
 PRODUCT_PACKAGES += \
     AudioFX \
-    LineageSettingsProvider
+    LineageSettingsProvider \
+    LineageSetupWizard \
+    Eleven \
+    ExactCalculator \
+    Jelly \
+    LockClock \
+    Trebuchet \
+    Updater \
+    WallpaperPicker \
+    WeatherProvider
+
+# Exchange support
+PRODUCT_PACKAGES += \
+    Exchange2
 
 # Berry styles
 PRODUCT_PACKAGES += \
+    LineageBlackTheme \
     LineageDarkTheme \
     LineageBlackAccent \
     LineageBlueAccent \
     LineageBrownAccent \
     LineageCyanAccent \
+    LineageGreenAccent \
     LineageOrangeAccent \
+    LineagePinkAccent \
     LineagePurpleAccent \
     LineageRedAccent \
-    LineageGreenAccent \
-    LineagePinkAccent \
     LineageYellowAccent
 
 # Extra tools in Lineage
@@ -199,6 +218,10 @@ PRODUCT_PACKAGES += \
 # rsync
 PRODUCT_PACKAGES += \
     rsync
+
+# Storage manager
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.storage_manager.enabled=true
 
 # Media
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \

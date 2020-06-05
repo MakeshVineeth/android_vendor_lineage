@@ -127,25 +127,10 @@ PRODUCT_PACKAGES += \
     Development \
     Profiles
 
-# Optional packages
-PRODUCT_PACKAGES += \
-    LiveWallpapersPicker \
-    PhotoTable \
-    Terminal
-
 # Custom Lineage packages
 PRODUCT_PACKAGES += \
     AudioFX \
-    LineageSettingsProvider \
-    LineageSetupWizard \
-    Eleven \
-    ExactCalculator \
-    Jelly \
-    LockClock \
-    Trebuchet \
-    Updater \
-    WallpaperPicker \
-    WeatherProvider
+    LineageSettingsProvider
 
 # Exchange support
 PRODUCT_PACKAGES += \
@@ -161,10 +146,8 @@ PRODUCT_PACKAGES += \
     LineageCyanAccent \
     LineageGreenAccent \
     LineageOrangeAccent \
-    LineagePinkAccent \
     LineagePurpleAccent \
-    LineageRedAccent \
-    LineageYellowAccent
+    LineageRedAccent
 
 # Extra tools in Lineage
 PRODUCT_PACKAGES += \
@@ -221,7 +204,7 @@ PRODUCT_PACKAGES += \
 
 # Storage manager
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.storage_manager.enabled=true
+    ro.storage_manager.enabled=false
 
 # Media
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \

@@ -123,8 +123,7 @@ PRODUCT_PACKAGES += \
 
 # Required Lineage packages
 PRODUCT_PACKAGES += \
-    LineageParts \
-    Profiles
+    LineageParts
 
 # Custom Lineage packages
 PRODUCT_PACKAGES += \

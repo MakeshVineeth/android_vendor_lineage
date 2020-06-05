@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
     $(RINGTONE_PATH)/boosted/Highscore.ogg:system/media/audio/ringtones/Highscore.ogg \
     $(RINGTONE_PATH)/boosted/Lyon.ogg:system/media/audio/ringtones/Lyon.ogg \
     $(RINGTONE_PATH)/boosted/Rockin.ogg:system/media/audio/ringtones/Rockin.ogg \
-    $(RINGTONE_PATH)/Flute.ogg:system/media/audio/ringtones/Flute.ogg
+    $(RINGTONE_PATH)/boosted/Flute.ogg:system/media/audio/ringtones/Flute.ogg
 else
 PRODUCT_COPY_FILES += \
     $(RINGTONE_PATH)/Boxbeat.ogg:system/media/audio/ringtones/Boxbeat.ogg \
@@ -39,5 +39,6 @@ PRODUCT_COPY_FILES += \
     $(RINGTONE_PATH)/Highscore.ogg:system/media/audio/ringtones/Highscore.ogg \
     $(RINGTONE_PATH)/Lyon.ogg:system/media/audio/ringtones/Lyon.ogg \
     $(RINGTONE_PATH)/Rockin.ogg:system/media/audio/ringtones/Rockin.ogg \
-    $(RINGTONE_PATH)/Yukaay.ogg:system/media/audio/ringtones/Yukaay.ogg
+    $(RINGTONE_PATH)/Yukaay.ogg:system/media/audio/ringtones/Yukaay.ogg \
+    $(RINGTONE_PATH)/Flute.ogg:system/media/audio/ringtones/Flute.ogg
 endif

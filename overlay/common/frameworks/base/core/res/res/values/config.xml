@@ -72,13 +72,18 @@
        <item>com.android.dialer</item>
        <item>com.google.android.dialer</item>
        <item>com.google.android.deskclock</item>
-      <item>com.chooloo.www.callmanager</item>
+       <item>com.chooloo.www.callmanager</item>
+       <item>com.ky.next.dialer</item>
    </string-array>
 
    <!-- empheral resolver packages -->
     <string-array name="config_ephemeralResolverPackage">
         <item>com.google.android.gms</item>
     </string-array>
+
+      <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
+          in hardware. -->
+     <bool name="config_setColorTransformAccelerated">true</bool>
 
     <!-- If this is true, long press on power button will be available from a
          non-interactive state. -->

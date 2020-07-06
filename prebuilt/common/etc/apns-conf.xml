@@ -1958,11 +1958,6 @@
   <apn carrier="Aircel Online" mcc="404" mnc="33" apn="aircelgprs" type="default,supl" />
   <apn carrier="Aircel GPRS" mcc="404" mnc="33" apn="aircelwap" proxy="172.17.83.69" port="8080" type="default,supl" />
   <apn carrier="Aircel MMS" mcc="404" mnc="33" apn="aircelmms" mmsc="http://172.17.83.67/servlets/mms/" mmsproxy="172.17.83.69" mmsport="8080" type="mms" />
-  <apn carrier="BSNL NET" mcc="404" mnc="34" apn="bsnlnet" type="default,supl" />
-  <apn carrier="BSNL WAP" mcc="404" mnc="34" apn="WAPSOUTH.CELLONE.IN" proxy="10.31.54.2" port="9401" user="PPP" password="PPP123" type="default,supl" />
-  <apn carrier="BSNL-mms" mcc="404" mnc="34" apn="bsnlmms" proxy="10.210.10.11" port="8080" mmsc="http://bsnlmmsc.in:8514" mmsproxy="10.210.10.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL" mcc="404" mnc="34" apn="bsnlnet" user="MSISDN" password="MSISDN" type="default,supl" />
-  <apn carrier="BSNL MMS" mcc="404" mnc="34" apn="mmssouth.cellone.in" user="MSISDN" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms" />
   <apn carrier="Aircel Online" mcc="404" mnc="35" apn="aircelgprs" type="default,supl" />
   <apn carrier="Aircel GPRS" mcc="404" mnc="35" apn="aircelwap" proxy="172.17.83.69" port="8080" type="default,supl" />
   <apn carrier="Aircel MMS" mcc="404" mnc="35" apn="aircelmms" mmsc="http://172.17.83.67/servlets/mms/" mmsproxy="172.17.83.69" mmsport="8080" type="mms" />
@@ -1975,11 +1970,6 @@
   <apn carrier="Aircel GPRS" mcc="404" mnc="37" apn="aircelwap" proxy="172.17.83.69" port="8080" type="default,supl" />
   <apn carrier="Aircel MMS" mcc="404" mnc="37" apn="aircelmms" mmsc="http://172.17.83.67/servlets/mms/" mmsproxy="172.17.83.69" mmsport="8080" type="mms" />
   <apn carrier="Aircel" mcc="404" mnc="37" apn="aircelwap" type="default,supl" />
-  <apn carrier="BSNL NET" mcc="404" mnc="38" apn="bsnlnet" type="default,supl" />
-  <apn carrier="BSNL WAP" mcc="404" mnc="38" apn="WAPSOUTH.CELLONE.IN" proxy="10.31.54.2" port="9401" user="PPP" password="PPP123" type="default,supl" />
-  <apn carrier="BSNL-mms" mcc="404" mnc="38" apn="bsnlmms" proxy="10.210.10.11" port="8080" mmsc="http://bsnlmmsc.in:8514" mmsproxy="10.210.10.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL" mcc="404" mnc="38" apn="bsnlnet" user="MSISDN" password="MSISDN" type="default,supl" />
-  <apn carrier="BSNL MMS" mcc="404" mnc="38" apn="mmssouth.cellone.in" user="MSISDN" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms" />
   <apn carrier="Airtel GPRS" mcc="404" mnc="40" apn="airtelgprs.com" type="default,supl" />
   <apn carrier="Airtel Live" mcc="404" mnc="40" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
   <apn carrier="Airtel MMS" mcc="404" mnc="40" apn="airtelmms.com" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
@@ -2012,70 +2002,20 @@
   <apn carrier="Reliance GPRS" mcc="404" mnc="50" apn="rcomwap" proxy="10.239.221.5" port="8080" type="default,supl" />
   <apn carrier="Smart MMS" mcc="404" mnc="50" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://10.239.221.47/mms/" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
   <apn carrier="Reliance MMS" mcc="404" mnc="50" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://mms.rcom.co.in/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
-  <apn carrier="BSNL NET" mcc="404" mnc="51" apn="bsnlnet" type="default,supl" />
-  <apn carrier="BSNL WAP" mcc="404" mnc="51" apn="WAPSOUTH.CELLONE.IN" proxy="10.31.54.2" port="9401" user="PPP" password="PPP123" type="default,supl" />
-  <apn carrier="BSNL-mms" mcc="404" mnc="51" apn="bsnlmms" proxy="10.210.10.11" port="8080" mmsc="http://bsnlmmsc.in:8514" mmsproxy="10.210.10.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL" mcc="404" mnc="51" apn="bsnlnet" user="MSISDN" password="MSISDN" type="default,supl" />
-  <apn carrier="BSNL MMS" mcc="404" mnc="51" apn="mmssouth.cellone.in" user="MSISDN" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms" />
   <apn carrier="NetConnect" mcc="404" mnc="52" apn="rcomnet" type="default,supl" />
   <apn carrier="Reliance GPRS" mcc="404" mnc="52" apn="rcomwap" proxy="10.239.221.5" port="8080" type="default,supl" />
   <apn carrier="Smart MMS" mcc="404" mnc="52" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://10.239.221.47/mms/" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
   <apn carrier="Reliance MMS" mcc="404" mnc="52" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://mms.rcom.co.in/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
-  <apn carrier="BSNL NET" mcc="404" mnc="53" apn="bsnlnet" type="default,supl" />
-  <apn carrier="BSNL WAP" mcc="404" mnc="53" apn="WAPSOUTH.CELLONE.IN" proxy="10.31.54.2" port="9401" user="PPP" password="PPP123" type="default,supl" />
-  <apn carrier="BSNL-mms" mcc="404" mnc="53" apn="bsnlmms" proxy="10.210.10.11" port="8080" mmsc="http://bsnlmmsc.in:8514" mmsproxy="10.210.10.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL" mcc="404" mnc="53" apn="bsnlnet" user="MSISDN" password="MSISDN" type="default,supl" />
-  <apn carrier="BSNL MMS" mcc="404" mnc="53" apn="mmssouth.cellone.in" user="MSISDN" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL NET" mcc="404" mnc="54" apn="bsnlnet" type="default,supl" />
-  <apn carrier="BSNL WAP" mcc="404" mnc="54" apn="WAPSOUTH.CELLONE.IN" proxy="10.31.54.2" port="9401" user="PPP" password="PPP123" type="default,supl" />
-  <apn carrier="BSNL-mms" mcc="404" mnc="54" apn="bsnlmms" proxy="10.210.10.11" port="8080" mmsc="http://bsnlmmsc.in:8514" mmsproxy="10.210.10.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL" mcc="404" mnc="54" apn="bsnlnet" user="MSISDN" password="MSISDN" type="default,supl" />
-  <apn carrier="BSNL MMS" mcc="404" mnc="54" apn="mmssouth.cellone.in" user="MSISDN" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL NET" mcc="404" mnc="55" apn="bsnlnet" type="default,supl" />
-  <apn carrier="BSNL WAP" mcc="404" mnc="55" apn="WAPSOUTH.CELLONE.IN" proxy="10.31.54.2" port="9401" user="PPP" password="PPP123" type="default,supl" />
-  <apn carrier="BSNL-mms" mcc="404" mnc="55" apn="bsnlmms" proxy="10.210.10.11" port="8080" mmsc="http://bsnlmmsc.in:8514" mmsproxy="10.210.10.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL" mcc="404" mnc="55" apn="bsnlnet" user="MSISDN" password="MSISDN" type="default,supl" />
-  <apn carrier="BSNL MMS" mcc="404" mnc="55" apn="mmssouth.cellone.in" user="MSISDN" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms" />
   <apn carrier="IDEA Internet" mcc="404" mnc="56" apn="internet" type="default,supl" />
   <apn carrier="IDEA Wap" mcc="404" mnc="56" apn="imis" proxy="10.4.42.15" port="8080" type="default,supl" />
   <apn carrier="IDEA MMS" mcc="404" mnc="56" apn="mmsc" mmsc="http://10.4.42.21:8002" mmsproxy="10.4.42.15" mmsport="8080" type="mms" />
   <apn carrier="IDEA Mobile" mcc="404" mnc="56" apn="mobile" type="default,supl" />
-  <apn carrier="BSNL NET" mcc="404" mnc="57" apn="bsnlnet" type="default,supl" />
-  <apn carrier="BSNL WAP" mcc="404" mnc="57" apn="WAPSOUTH.CELLONE.IN" proxy="10.31.54.2" port="9401" user="PPP" password="PPP123" type="default,supl" />
-  <apn carrier="BSNL-mms" mcc="404" mnc="57" apn="bsnlmms" proxy="10.210.10.11" port="8080" mmsc="http://bsnlmmsc.in:8514" mmsproxy="10.210.10.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL" mcc="404" mnc="57" apn="bsnlnet" user="MSISDN" password="MSISDN" type="default,supl" />
-  <apn carrier="BSNL MMS" mcc="404" mnc="57" apn="mmssouth.cellone.in" user="MSISDN" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL NET" mcc="404" mnc="58" apn="bsnlnet" type="default,supl" />
-  <apn carrier="BSNL WAP" mcc="404" mnc="58" apn="WAPSOUTH.CELLONE.IN" proxy="10.31.54.2" port="9401" user="PPP" password="PPP123" type="default,supl" />
-  <apn carrier="BSNL-mms" mcc="404" mnc="58" apn="bsnlmms" proxy="10.210.10.11" port="8080" mmsc="http://bsnlmmsc.in:8514" mmsproxy="10.210.10.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL" mcc="404" mnc="58" apn="bsnlnet" user="MSISDN" password="MSISDN" type="default,supl" />
-  <apn carrier="BSNL MMS" mcc="404" mnc="58" apn="mmssouth.cellone.in" user="MSISDN" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL NET" mcc="404" mnc="59" apn="bsnlnet" type="default,supl" />
-  <apn carrier="BSNL WAP" mcc="404" mnc="59" apn="WAPSOUTH.CELLONE.IN" proxy="10.31.54.2" port="9401" user="PPP" password="PPP123" type="default,supl" />
-  <apn carrier="BSNL-mms" mcc="404" mnc="59" apn="bsnlmms" proxy="10.210.10.11" port="8080" mmsc="http://bsnlmmsc.in:8514" mmsproxy="10.210.10.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL" mcc="404" mnc="59" apn="bsnlnet" user="MSISDN" password="MSISDN" type="default,supl" />
-  <apn carrier="BSNL MMS" mcc="404" mnc="59" apn="mmssouth.cellone.in" user="MSISDN" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms" />
   <apn carrier="Vodafone" mcc="404" mnc="60" apn="portalnmms" proxy="10.10.1.100" port="9401" mmsc="http://mms1.live.vodafone.in/mms/" mmsproxy="10.10.1.100" mmsport="9401" type="default,supl,mms" />
   <apn carrier="Vodafone IN MMS" mcc="404" mnc="60" apn="portalnmms" mmsc="http://mms1.live.vodafone.in/mms/" mmsproxy="10.10.1.100" mmsport="9401" type="mms" />
   <apn carrier="Vodafone IN" mcc="404" mnc="60" apn="www" type="default,supl" />
   <apn carrier="Airtel GPRS" mcc="404" mnc="61" apn="airtelgprs.com" type="default,supl" />
   <apn carrier="Airtel Live" mcc="404" mnc="61" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
   <apn carrier="Airtel MMS" mcc="404" mnc="61" apn="airtelmms.com" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.001.201.172" mmsport="8799" authtype="1" type="mms" />
-  <apn carrier="BSNL NET" mcc="404" mnc="62" apn="bsnlnet" type="default,supl" />
-  <apn carrier="BSNL WAP" mcc="404" mnc="62" apn="WAPSOUTH.CELLONE.IN" proxy="10.31.54.2" port="9401" user="PPP" password="PPP123" type="default,supl" />
-  <apn carrier="BSNL-mms" mcc="404" mnc="62" apn="bsnlmms" proxy="10.210.10.11" port="8080" mmsc="http://bsnlmmsc.in:8514" mmsproxy="10.210.10.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL" mcc="404" mnc="62" apn="bsnlnet" user="MSISDN" password="MSISDN" type="default,supl" />
-  <apn carrier="BSNL MMS" mcc="404" mnc="62" apn="mmssouth.cellone.in" user="MSISDN" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL NET" mcc="404" mnc="64" apn="bsnlnet" type="default,supl" />
-  <apn carrier="BSNL WAP" mcc="404" mnc="64" apn="WAPSOUTH.CELLONE.IN" proxy="10.31.54.2" port="9401" user="PPP" password="PPP123" type="default,supl" />
-  <apn carrier="BSNL-mms" mcc="404" mnc="64" apn="bsnlmms" proxy="10.210.10.11" port="8080" mmsc="http://bsnlmmsc.in:8514" mmsproxy="10.210.10.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL" mcc="404" mnc="64" apn="bsnlnet" user="MSISDN" password="MSISDN" type="default,supl" />
-  <apn carrier="BSNL MMS" mcc="404" mnc="64" apn="mmssouth.cellone.in" user="MSISDN" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL NET" mcc="404" mnc="66" apn="bsnlnet" type="default,supl" />
-  <apn carrier="BSNL WAP" mcc="404" mnc="66" apn="WAPSOUTH.CELLONE.IN" proxy="10.31.54.2" port="9401" user="PPP" password="PPP123" type="default,supl" />
-  <apn carrier="BSNL-mms" mcc="404" mnc="66" apn="bsnlmms" proxy="10.210.10.11" port="8080" mmsc="http://bsnlmmsc.in:8514" mmsproxy="10.210.10.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL" mcc="404" mnc="66" apn="bsnlnet" user="MSISDN" password="MSISDN" type="default,supl" />
-  <apn carrier="BSNL MMS" mcc="404" mnc="66" apn="mmssouth.cellone.in" user="MSISDN" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms" />
   <apn carrier="Vodafone" mcc="404" mnc="67" apn="portalnmms" proxy="10.10.1.100" port="9401" mmsc="http://mms1.live.vodafone.in/mms/" mmsproxy="10.10.1.100" mmsport="9401" type="default,supl,mms" />
   <apn carrier="NetConnect" mcc="404" mnc="67" apn="rcomnet" type="default,supl" />
   <apn carrier="Reliance GPRS" mcc="404" mnc="67" apn="rcomwap" proxy="10.239.221.5" port="8080" type="default,supl" />
@@ -2096,58 +2036,10 @@
   <apn carrier="Airtel GPRS" mcc="404" mnc="70" apn="airtelgprs.com" type="default,supl" />
   <apn carrier="Airtel Live" mcc="404" mnc="70" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
   <apn carrier="Airtel MMS" mcc="404" mnc="70" apn="airtelmms.com" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
-  <apn carrier="BSNL NET" mcc="404" mnc="71" apn="bsnlnet" type="default,supl" />
-  <apn carrier="BSNL WAP" mcc="404" mnc="71" apn="WAPSOUTH.CELLONE.IN" proxy="10.31.54.2" port="9401" user="PPP" password="PPP123" type="default,supl" />
-  <apn carrier="BSNL-mms" mcc="404" mnc="71" apn="bsnlmms" proxy="10.210.10.11" port="8080" mmsc="http://bsnlmmsc.in:8514" mmsproxy="10.210.10.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL" mcc="404" mnc="71" apn="bsnlnet" user="MSISDN" password="MSISDN" type="default,supl" />
-  <apn carrier="BSNL MMS" mcc="404" mnc="71" apn="mmssouth.cellone.in" user="MSISDN" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL NET" mcc="404" mnc="72" apn="bsnlnet" type="default,supl" />
-  <apn carrier="BSNL WAP" mcc="404" mnc="72" apn="WAPSOUTH.CELLONE.IN" proxy="10.31.54.2" port="9401" user="PPP" password="PPP123" type="default,supl" />
-  <apn carrier="BSNL-mms" mcc="404" mnc="72" apn="bsnlmms" proxy="10.210.10.11" port="8080" mmsc="http://bsnlmmsc.in:8514" mmsproxy="10.210.10.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL" mcc="404" mnc="72" apn="bsnlnet" user="MSISDN" password="MSISDN" type="default,supl" />
-  <apn carrier="BSNL MMS" mcc="404" mnc="72" apn="mmssouth.cellone.in" user="MSISDN" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL NET" mcc="404" mnc="73" apn="bsnlnet" type="default,supl" />
-  <apn carrier="BSNL WAP" mcc="404" mnc="73" apn="WAPSOUTH.CELLONE.IN" proxy="10.31.54.2" port="9401" user="PPP" password="PPP123" type="default,supl" />
-  <apn carrier="BSNL-mms" mcc="404" mnc="73" apn="bsnlmms" proxy="10.210.10.11" port="8080" mmsc="http://bsnlmmsc.in:8514" mmsproxy="10.210.10.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL" mcc="404" mnc="73" apn="bsnlnet" user="MSISDN" password="MSISDN" type="default,supl" />
-  <apn carrier="BSNL MMS" mcc="404" mnc="73" apn="mmssouth.cellone.in" user="MSISDN" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL NET" mcc="404" mnc="74" apn="bsnlnet" type="default,supl" />
-  <apn carrier="BSNL WAP" mcc="404" mnc="74" apn="WAPSOUTH.CELLONE.IN" proxy="10.31.54.2" port="9401" user="PPP" password="PPP123" type="default,supl" />
-  <apn carrier="BSNL-mms" mcc="404" mnc="74" apn="bsnlmms" proxy="10.210.10.11" port="8080" mmsc="http://bsnlmmsc.in:8514" mmsproxy="10.210.10.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL" mcc="404" mnc="74" apn="bsnlnet" user="MSISDN" password="MSISDN" type="default,supl" />
-  <apn carrier="BSNL MMS" mcc="404" mnc="74" apn="mmssouth.cellone.in" user="MSISDN" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL NET" mcc="404" mnc="75" apn="bsnlnet" type="default,supl" />
-  <apn carrier="BSNL WAP" mcc="404" mnc="75" apn="WAPSOUTH.CELLONE.IN" proxy="10.31.54.2" port="9401" user="PPP" password="PPP123" type="default,supl" />
-  <apn carrier="BSNL-mms" mcc="404" mnc="75" apn="bsnlmms" proxy="10.210.10.11" port="8080" mmsc="http://bsnlmmsc.in:8514" mmsproxy="10.210.10.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL" mcc="404" mnc="75" apn="bsnlnet" user="MSISDN" password="MSISDN" type="default,supl" />
-  <apn carrier="BSNL MMS" mcc="404" mnc="75" apn="mmssouth.cellone.in" user="MSISDN" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL NET" mcc="404" mnc="76" apn="bsnlnet" type="default,supl" />
-  <apn carrier="BSNL WAP" mcc="404" mnc="76" apn="WAPSOUTH.CELLONE.IN" proxy="10.31.54.2" port="9401" user="PPP" password="PPP123" type="default,supl" />
-  <apn carrier="BSNL-mms" mcc="404" mnc="76" apn="bsnlmms" proxy="10.210.10.11" port="8080" mmsc="http://bsnlmmsc.in:8514" mmsproxy="10.210.10.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL" mcc="404" mnc="76" apn="bsnlnet" user="MSISDN" password="MSISDN" type="default,supl" />
-  <apn carrier="BSNL MMS" mcc="404" mnc="76" apn="mmssouth.cellone.in" user="MSISDN" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL NET" mcc="404" mnc="77" apn="bsnlnet" type="default,supl" />
-  <apn carrier="BSNL WAP" mcc="404" mnc="77" apn="WAPSOUTH.CELLONE.IN" proxy="10.31.54.2" port="9401" user="PPP" password="PPP123" type="default,supl" />
-  <apn carrier="BSNL-mms" mcc="404" mnc="77" apn="bsnlmms" proxy="10.210.10.11" port="8080" mmsc="http://bsnlmmsc.in:8514" mmsproxy="10.210.10.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL" mcc="404" mnc="77" apn="bsnlnet" user="MSISDN" password="MSISDN" type="default,supl" />
-  <apn carrier="BSNL MMS" mcc="404" mnc="77" apn="mmssouth.cellone.in" user="MSISDN" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms" />
   <apn carrier="IDEA Internet" mcc="404" mnc="78" apn="internet" type="default,supl" />
   <apn carrier="IDEA Wap" mcc="404" mnc="78" apn="imis" proxy="10.4.42.15" port="8080" type="default,supl" />
   <apn carrier="IDEA MMS" mcc="404" mnc="78" apn="mmsc" mmsc="http://10.4.42.21:8002" mmsproxy="10.4.42.15" mmsport="8080" type="mms" />
   <apn carrier="IDEA Mobile" mcc="404" mnc="78" apn="mobile" type="default,supl" />
-  <apn carrier="BSNL NET" mcc="404" mnc="79" apn="bsnlnet" type="default,supl" />
-  <apn carrier="BSNL WAP" mcc="404" mnc="79" apn="WAPSOUTH.CELLONE.IN" proxy="10.31.54.2" port="9401" user="PPP" password="PPP123" type="default,supl" />
-  <apn carrier="BSNL-mms" mcc="404" mnc="79" apn="bsnlmms" proxy="10.210.10.11" port="8080" mmsc="http://bsnlmmsc.in:8514" mmsproxy="10.210.10.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL NET" mcc="404" mnc="80" apn="bsnlnet" type="default,supl" />
-  <apn carrier="BSNL WAP" mcc="404" mnc="80" apn="WAPSOUTH.CELLONE.IN" proxy="10.31.54.2" port="9401" user="PPP" password="PPP123" type="default,supl" />
-  <apn carrier="BSNL-mms" mcc="404" mnc="80" apn="bsnlmms" proxy="10.210.10.11" port="8080" mmsc="http://bsnlmmsc.in:8514" mmsproxy="10.210.10.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL" mcc="404" mnc="80" apn="bsnlnet" user="MSISDN" password="MSISDN" type="default,supl" />
-  <apn carrier="BSNL MMS" mcc="404" mnc="80" apn="mmssouth.cellone.in" user="MSISDN" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL NET" mcc="404" mnc="81" apn="bsnlnet" type="default,supl" />
-  <apn carrier="BSNL WAP" mcc="404" mnc="81" apn="WAPSOUTH.CELLONE.IN" proxy="10.31.54.2" port="9401" user="PPP" password="PPP123" type="default,supl" />
-  <apn carrier="BSNL-mms" mcc="404" mnc="81" apn="bsnlmms" proxy="10.210.10.11" port="8080" mmsc="http://bsnlmmsc.in:8514" mmsproxy="10.210.10.11" mmsport="8080" type="mms" />
-  <apn carrier="BSNL" mcc="404" mnc="81" apn="bsnlnet" user="MSISDN" password="MSISDN" type="default,supl" />
-  <apn carrier="BSNL MMS" mcc="404" mnc="81" apn="mmssouth.cellone.in" user="MSISDN" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms" />
   <apn carrier="IDEA Internet" mcc="404" mnc="82" apn="internet" type="default,supl" />
   <apn carrier="IDEA Wap" mcc="404" mnc="82" apn="imis" proxy="10.4.42.15" port="8080" type="default,supl" />
   <apn carrier="IDEA MMS" mcc="404" mnc="82" apn="mmsc" mmsc="http://10.4.42.21:8002" mmsproxy="10.4.42.15" mmsport="8080" type="mms" />
